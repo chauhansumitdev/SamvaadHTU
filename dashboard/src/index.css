@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+h3{
+  color: rgb(66, 115, 238);
+  margin: 5px;
+}
+
+.App {
+  display: flex;
+}
+
+.sidebarfull{
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  background-color: white;
+}
+
+.sidebar ul {
+  margin-left: 50px;
+  list-style: none;
+  padding: 20px;
+}
+
+.sidebar li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.sidebar li:hover {
+  padding-left: 10px;
+  border-left: 3px solid rgb(66, 115, 238);
+}
+.sidebar a {
+  text-decoration: none;
+  color: rgb(66, 115, 238);
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+.logocontainer {
+  background-color: rgb(66, 115, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 50px;
+  border-radius: 0 0 20px 20px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-box {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-section {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-section h2 {
+  margin-bottom: 15px;
+}
+
+
+.server-stats {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.server-stats h2 {
+  margin-bottom: 15px;
+}
+
+.stat-box p {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-section,
+.bottom-section {
+  display: flex;
+  gap: 20px;
+}
+
+.form-container,
+.result-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: rgb(66, 115, 238);
+  margin-bottom: 15px;
+}
+
+.notification-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification-form label {
+  font-size: 16px;
+}
+
+.notification-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-bottom:2px solid rgba(0, 0, 0, 0.1);
+}
+
+.notification-form button {
+  background-color: rgb(66, 115, 238);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.notification-form button:hover {
+  background-color: rgb(44, 77, 160);
+}
+
+
+.form-builder-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.add-field-btn,
+.submit-form-btn {
+  background-color: rgb(66, 115, 238);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.add-field-btn:hover,
+.submit-form-btn:hover {
+  background-color: rgb(44, 77, 160);
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-list {
+  list-style: none;
+  padding: 0;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.form-link {
+  color: rgb(0, 41, 146);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.combined-data-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.your-form-data,
+.emergency-data {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-data-item,
+.emergency-item {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding :10px;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+
+
+.post {
+  width: 500px;
+  margin: 10px 10px;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.post h5 {
+  margin-bottom: 8px;
+}
+
+.post p {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.post h6 {
+  color: rgb(66, 115, 238);
+  font-size: 14px;
+}
+
+.comments {
+  margin: 5px;
+  padding-left: 10px;
+  border-left: 2px solid rgb(160, 160, 160);
+}
+
+.commentinput {
+  width: 330px;
+  padding: 5px;
+  border-width: 0 0 1px 0;
+  border-color: rgb(160, 160, 160);
+}
+
+.commentbutton {
+  margin: 0 2px;
+}
+
+.message-sender-container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-sender-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: rgb(66, 115, 238);
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.result-message {
+  margin-top: 15px;
+  color: #4caf50;
+}
+
+
