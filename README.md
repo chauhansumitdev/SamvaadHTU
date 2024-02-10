@@ -1,13 +1,4 @@
-![samvaad1](https://github.com/chauhansumitdev/RJPOLICE_HACK_1582_Shuvit_1/assets/103536827/5aa0c721-c7cf-44e9-acc4-4b0c8c0e952e)
 
-# RJPOLICE_HACK_1582_Shuvit_1
-Team `Shuvit` 
-
-
-![SAMVAD new](https://github.com/chauhansumitdev/RJPOLICE_HACK_1582_Shuvit_1/assets/103536827/7d237646-f399-407e-83e1-c2c3cecb4d91)
-
-
-## Project Description
 In response to the challenges faced in gathering feedback on police
 operations, our team has undertaken the development of a
 comprehensive Police Feedback System. This initiative aims to
